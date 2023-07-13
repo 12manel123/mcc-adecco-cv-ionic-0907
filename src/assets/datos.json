@@ -1,0 +1,61 @@
+{
+    "datosPersonales": {
+      "nombre": "Manel Castellví Cerezuela",
+      "telefono": "611491869",
+      "correo": "manelcastellvicerezuela@gmail.com",
+      "ciudad": "Torredembarra (43830)",
+      "idiomas": ["Español", "Catalán", "Inglés"]
+    },
+    "experienciasEducativas": [
+      {
+        "institucion": "INS Vidal I Barraquer",
+        "tipo": "CFGS Desarrollo de Aplicaciones Web",
+        "fechaInicio": "2020",
+        "fechaFin": "2022",
+        "descripcion": "Estudios en Desarrollo de Aplicaciones Web"
+      },
+      {
+        "institucion": "INS Vidal I Barraquer",
+        "tipo": "CFGM Sistemas Microinformáticos i Redes",
+        "fechaInicio": "2018",
+        "fechaFin": "2020",
+        "descripcion": "Estudios en Sistemas Microinformáticos y Redes"
+      },
+      {
+        "institucion": "INS Torredembarra",
+        "tipo": "ESO",
+        "fechaInicio": "2014",
+        "fechaFin": "2018",
+        "descripcion": "Educación Secundaria Obligatoria"
+      }
+    ],
+    "experienciasLaborales": [
+      {
+        "categoria": "Categoria 1",
+        "empresa": "Escuela primaria e infantil Cèsar August",
+        "fechaInicio": "2019-11-01",
+        "fechaFin": "2020-06-31",
+        "descripcion": "Mantenimiento y soporte informatico en todo el edificio y clases escolares"
+      },
+      {
+        "categoria": "Categoria 2",
+        "empresa": "Juroga Projects",
+        "fechaInicio": "2021-10-01",
+        "fechaFin": "2022-03-30",
+        "descripcion": "Desarrollo de pagians web mediante Wordpress"
+      }
+    ],
+    "voluntariado": [
+      {
+        "nombre": "Cruz Roja",
+        "fechaInicio": "2020-06-01",
+        "fechaFin": "2021-05-31",
+        "descripcion": "Voluntario en actividades de ayuda a la comunidad"
+      }
+    ],
+    "tecnologias": ["HTML", "CSS", "JS", "TS", "Angular", "Ionic"],
+    "herramientas": ["Figma", "Git", "GitHub", "Notion", "Trello"],
+    "ides": ["Visual Studio Code", "Android Studio", "Sublime Text", "Eclipse","Visual Studio"],
+    "otrosConocimientos": ["Diseño grafico", "Doblaje"]
+  }
+  

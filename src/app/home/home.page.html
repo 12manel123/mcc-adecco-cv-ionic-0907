@@ -1,20 +1,28 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>CV</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-list>
+    <ion-item routerLink="/datos-personale">
+      Datos Personales
+    </ion-item>
+    <ion-item routerLink="/experiencia-educativas">
+      Experiencias Educativas
+    </ion-item>
+    <ion-item routerLink="/experiencia-laboral">
+      Experiencias Laborales
+    </ion-item>
+    <ion-item routerLink="/voluntariado">
+      Voluntariado y Acciones Sociales
+    </ion-item>
+    <ion-item routerLink="/otra-informacion">
+      Otra Información
+    </ion-item>
+  </ion-list>
 </ion-content>

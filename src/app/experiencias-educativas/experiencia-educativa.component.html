@@ -1,0 +1,16 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Experiencias Educativas</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item *ngFor="let experiencia of experienciasEducativas">
+        <ion-label>
+          <h2>{{ experiencia.institucion }}</h2>
+          <h3>{{ experiencia.fechaInicio }} - {{ experiencia.fechaFin }}</h3>
+          <p>{{ experiencia.descripcion }}</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>

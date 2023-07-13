@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-button (click)="filtrarExperiencias('Categoria 1')">Categoria 1</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button (click)="filtrarExperiencias('Categoria 2')">Categoria 2</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button (click)="filtrarExperiencias('Categoria 3')">Categoria 3</ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-card *ngFor="let experiencia of experienciasFiltradas">
+      <ion-card-header>
+        <ion-card-title>{{ experiencia.empresa }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Categoría: {{ experiencia.categoria }}</p>
+        <p>Fecha: {{ experiencia.fechaInicio }} - {{ experiencia.fechaFin }}</p>
+        <p>{{ experiencia.descripcion }}</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>

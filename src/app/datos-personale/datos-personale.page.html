@@ -1,0 +1,15 @@
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Datos Personales</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <p><strong>Nombre:</strong> {{ datosPersonales.nombre }}</p>
+    <p><strong>Teléfono:</strong> {{ datosPersonales.telefono }}</p>
+    <p><strong>Correo electrónico:</strong> {{ datosPersonales.correo }}</p>
+    <p><strong>Ciudad:</strong> {{ datosPersonales.ciudad }}</p>
+    <p><strong>Idiomas:</strong></p>
+    <ul>
+      <li *ngFor="let idioma of datosPersonales.idiomas">{{ idioma }}</li>
+    </ul>
+  </ion-card-content>
+</ion-card>
