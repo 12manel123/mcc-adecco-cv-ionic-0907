@@ -1,0 +1,7 @@
+{
+  "name": "ManelCV",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
