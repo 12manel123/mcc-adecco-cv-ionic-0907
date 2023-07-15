@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { VoluntariadoPageRoutingModule } from './voluntariado-routing.module';
+import { HerramientasPageRoutingModule } from './herramientas-routing.module';
 
-import { VoluntariadoPage } from './voluntariado.page';
+import { HerramientasPage } from './herramientas.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VoluntariadoPageRoutingModule
+    HerramientasPageRoutingModule
   ],
-  declarations: [VoluntariadoPage]
+  declarations: [HerramientasPage]
 })
-export class VoluntariadoPageModule {}
+export class HerramientasPageModule {}

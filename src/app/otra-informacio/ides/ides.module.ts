@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { VoluntariadoPageRoutingModule } from './voluntariado-routing.module';
+import { IdesPageRoutingModule } from './ides-routing.module';
 
-import { VoluntariadoPage } from './voluntariado.page';
+import { IdesPage } from './ides.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VoluntariadoPageRoutingModule
+    IdesPageRoutingModule
   ],
-  declarations: [VoluntariadoPage]
+  declarations: [IdesPage]
 })
-export class VoluntariadoPageModule {}
+export class IdesPageModule {}

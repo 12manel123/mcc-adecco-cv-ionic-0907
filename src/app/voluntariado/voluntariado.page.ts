@@ -1,18 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { IonicModule } from '@ionic/angular';//esto
-import { CommonModule } from '@angular/common';//esto for
-import { FormsModule } from '@angular/forms';//esto Module
-
 @Component({
   selector: 'app-voluntariado',
-  templateUrl: './voluntariado.component.html',
-  styleUrls: ['./voluntariado.component.scss'],
-  standalone: true,//esto
-  imports: [IonicModule,CommonModule,FormsModule]//esto //esto for //esto Module
-
+  templateUrl: './voluntariado.page.html',
+  styleUrls: ['./voluntariado.page.scss'],
 })
-export class VoluntariadoComponent implements OnInit {
+export class VoluntariadoPage implements OnInit {
+
   voluntariado: any[];
 
   constructor(private http: HttpClient) {

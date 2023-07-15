@@ -21,6 +21,19 @@ const routes: Routes = [
     path: 'experiencia-laboral',
     loadChildren: () => import('./experiencia-laboral/experiencia-laboral.module').then( m => m.ExperienciaLaboralPageModule)
   },
+  {
+    path: 'experiencia-educativa',
+    loadChildren: () => import('./experiencia-educativa/experiencia-educativa.module').then( m => m.ExperienciaEducativaPageModule)
+  },
+  {
+    path: 'voluntariado',
+    loadChildren: () => import('./voluntariado/voluntariado.module').then( m => m.VoluntariadoPageModule)
+  },
+  {
+    path: 'otra-informacio',
+    loadChildren: () => import('./otra-informacio/otra-informacio.module').then( m => m.OtraInformacioPageModule)
+  },
+  
 ];
 
 @NgModule({
