@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-experiencia-laboral',
   templateUrl: './experiencia-laboral.page.html',
@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class ExperienciaLaboralPage implements OnInit {
   experiencias!: any[];
   experienciasFiltradas!: any[];
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
     this.cargarDatos();
@@ -30,5 +30,9 @@ export class ExperienciaLaboralPage implements OnInit {
         (experiencia) => experiencia.categoria === categoria
       );
     }
+  }
+  verDetalles(experiencia: any): void {
+    this.router.navigate(['/detalles'], { state: { experiencia, tipo: 'laboral' } });
+
   }
 }

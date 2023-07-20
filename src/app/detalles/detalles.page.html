@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalles de Experiencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngIf="tipoExperiencia === 'laboral'">
+    <ion-card-header>
+      <ion-card-title>{{ experiencia.empresa }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Categoría: {{ experiencia.categoria }}</p>
+      <p>Fecha: {{ experiencia.fechaInicio }} - {{ experiencia.fechaFin }}</p>
+      <p>{{ experiencia.descripcion }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="tipoExperiencia === 'educativa'">
+    <ion-card-header>
+      <ion-card-title>{{ experiencia.institucion }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Tipo: {{ experiencia.tipo }}</p>
+      <p>Fecha: {{ experiencia.fechaInicio }} - {{ experiencia.fechaFin }}</p>
+      <p>{{ experiencia.descripcion }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="tipoExperiencia === 'tecno'">
+    <ion-card-header>
+      <ion-card-title>{{ experiencia.nombre }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Descripción: {{ experiencia.descripcion }}</p>
+      <p>GitHub: <a href="{{ experiencia.github }}" target="_blank">{{ experiencia.github }}</a></p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

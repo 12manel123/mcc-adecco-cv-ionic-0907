@@ -53,7 +53,38 @@
         "descripcion": "Voluntario en actividades de ayuda a la comunidad"
       }
     ],
-    "tecnologias": ["HTML", "CSS", "JS", "TS", "Angular", "Ionic"],
+    "tecnologias": [
+      {
+        "nombre": "HTML",
+        "descripcion": "Lenguaje de marcado para páginas web",
+        "github": "https://github.com/w3c/html"
+      },
+      {
+        "nombre": "CSS",
+        "descripcion": "Lenguaje de hojas de estilo para diseño web",
+        "github": "https://github.com/w3c/css"
+      },
+      {
+        "nombre": "JS",
+        "descripcion": "Lenguaje de programación JavaScript",
+        "github": "https://github.com/tc39"
+      },
+      {
+        "nombre": "TS",
+        "descripcion": "Lenguaje de programación TypeScript",
+        "github": "https://github.com/microsoft/TypeScript"
+      },
+      {
+        "nombre": "Angular",
+        "descripcion": "Framework de desarrollo de aplicaciones web",
+        "github": "https://github.com/angular/angular"
+      },
+      {
+        "nombre": "Ionic",
+        "descripcion": "Framework para desarrollo de aplicaciones móviles híbridas",
+        "github": "https://github.com/ionic-team/ionic"
+      }
+    ],
     "herramientas": ["Figma", "Git", "GitHub", "Notion", "Trello"],
     "ides": ["Visual Studio Code", "Android Studio", "Sublime Text", "Eclipse","Visual Studio"],
     "otrosConocimientos": ["Diseño grafico", "Doblaje"]

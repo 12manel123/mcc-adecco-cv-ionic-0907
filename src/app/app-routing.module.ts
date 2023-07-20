@@ -33,6 +33,10 @@ const routes: Routes = [
     path: 'otra-informacio',
     loadChildren: () => import('./otra-informacio/otra-informacio.module').then( m => m.OtraInformacioPageModule)
   },
+  {
+    path: 'detalles',
+    loadChildren: () => import('./detalles/detalles.module').then( m => m.DetallesPageModule)
+  },
   
 ];
 

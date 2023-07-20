@@ -20,6 +20,7 @@
         <p>Categoría: {{ experiencia.categoria }}</p>
         <p>Fecha: {{ experiencia.fechaInicio }} - {{ experiencia.fechaFin }}</p>
         <p>{{ experiencia.descripcion }}</p>
+        <ion-fab-button size="small" (click)="verDetalles(experiencia)">+ Info</ion-fab-button>
       </ion-card-content>
     </ion-card>
   </ion-list>

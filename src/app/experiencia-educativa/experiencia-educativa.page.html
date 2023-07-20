@@ -9,6 +9,7 @@
           <h2>{{ experiencia.institucion }}</h2>
           <h3>{{ experiencia.fechaInicio }} - {{ experiencia.fechaFin }}</h3>
           <p>{{ experiencia.descripcion }}</p>
+          <ion-fab-button size="small" (click)="verDetalles(experiencia)">+ Info</ion-fab-button>
         </ion-label>
       </ion-item>
     </ion-list>

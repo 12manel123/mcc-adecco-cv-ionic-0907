@@ -4,7 +4,10 @@
   </ion-card-header>
   <ion-card-content>
     <ul>
-      <li *ngFor="let tecnologia of tecnologias">{{ tecnologia }}</li>
+      <li *ngFor="let tecnologia of tecnologias">
+        {{ tecnologia.nombre }}
+        <ion-fab-button size="small" (click)="verDetalles(tecnologia)">+ Info</ion-fab-button>
+      </li>
     </ul>
   </ion-card-content>
 </ion-card>
